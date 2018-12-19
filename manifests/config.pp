@@ -72,6 +72,7 @@ class redis::config {
       group  => $var_run_redis_group,
       mode   => $var_run_redis_mode,
     }
+
   }
 
   # Adjust /etc/default/redis-server on Debian systems
